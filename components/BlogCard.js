@@ -7,8 +7,7 @@ export default function BlogCard({
   author,
   coverPhoto,
   datePublished,
-  slug,
-  key
+  slug
 }) {
   return (
     <div className={styles.card}>
