@@ -1,0 +1,9 @@
+.title {
+    color: rgb(39, 39, 39);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem;
+    font-size: 2rem;
+    cursor: pointer;
+}

@@ -1,0 +1,71 @@
+.title h1 {
+    color: rgb(39, 39, 39);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5rem;
+    font-size: 2rem;
+}
+
+.blog {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    grid-gap: 3rem;
+    margin: 0 60px
+}
+
+.card {
+    margin-top: 5rem;
+    border-radius: 2rem;
+    overflow: hidden;
+    box-shadow: 15px 20px 40px rgb(216, 211, 211, 0.4);
+}
+
+.card h2 {
+    padding: 0.5rem 0rem;
+}
+
+.card h3 {
+    font-size: 1rem;
+}
+
+.imgContainer img {
+    width: 100%;
+    height: 25vh;
+}
+
+.card img {
+    object-fit: cover;
+}
+
+.text{
+    padding: 10px 30px;
+}
+
+.details{
+    display: flex;
+    justify-content: space-between;
+}
+
+.author {
+    display: flex;
+    align-items: center;
+}
+
+.author img {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    margin-right: 00.5rem;
+    cursor: pointer;
+}
+
+.author img:hover {
+    opacity: .8;
+}
+
+@media screen and(max-width: 768px) {
+    .card {
+        margin: 0rem 2rem;
+    }
+}
